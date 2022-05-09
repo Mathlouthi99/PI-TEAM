@@ -1,0 +1,24 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+*{
+	-fx-base:#232323;
+	-fx-font-family:"Hack Nerd Font", "Noto Mono", Arial;
+}
+
+.contentText{
+    -fx-font-size : 14pt;
+    -fx-fill : black;
+    
+}
+
+.countryTitle{
+    -fx-font-size : 9pt;
+     -fx-fill : white;
+}
+
+.mainTitle{
+    -fx-font-weight:bold;
+    -fx-font-size:20pt;
+}

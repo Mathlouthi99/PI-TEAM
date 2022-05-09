@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1230.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="services.GestionutilisateurController">
+   <children>
+      <AnchorPane layoutY="6.0" prefHeight="543.0" prefWidth="228.0" style="-fx-background-color: #0598ff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="ajouter" layoutX="24.0" layoutY="508.0" mnemonicParsing="false" onAction="#adduser" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: blue;" text="Ajouter" textFill="#80e75d" />
+            <Button fx:id="modifier" layoutX="24.0" layoutY="560.0" mnemonicParsing="false" onAction="#updateUser" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: silver;" text="Modifier" />
+            <Button fx:id="supprimer" layoutX="24.0" layoutY="613.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: red;" text="Supprimer" />
+            <TextField fx:id="txt_nom" layoutX="24.0" layoutY="104.0" prefHeight="30.0" prefWidth="180.0" promptText="nom" />
+            <TextField fx:id="txt_prenom" layoutX="24.0" layoutY="147.0" prefHeight="30.0" prefWidth="180.0" promptText="prenom" />
+            <TextField fx:id="txt_id" layoutX="24.0" layoutY="21.0" prefHeight="30.0" prefWidth="180.0" promptText="ID" visible="false" />
+            <TextField fx:id="txt_email" layoutX="24.0" layoutY="190.0" prefHeight="30.0" prefWidth="180.0" promptText="email" />
+            <TextField fx:id="txt_mdp" layoutX="24.0" layoutY="233.0" prefHeight="30.0" prefWidth="180.0" promptText="Mot de passe" />
+            <TextField fx:id="txt_mdpc" layoutX="24.0" layoutY="279.0" prefHeight="30.0" prefWidth="180.0" promptText="Confirmation" />
+            <TextField fx:id="txt_type" layoutX="24.0" layoutY="319.0" prefHeight="30.0" prefWidth="180.0" promptText="Type d'utilisateur" />
+            <Button layoutX="101.0" layoutY="416.0" mnemonicParsing="false" onMouseClicked="#refreshChamp">
+               <graphic>
+                  
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TableView fx:id="usertable" layoutX="228.0" layoutY="76.0" onMouseClicked="#getSelected" prefHeight="625.0" prefWidth="1000.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="col_cin" prefWidth="75.0" text="cin" />
+            <TableColumn fx:id="col_nom" prefWidth="92.0" text="nom" />
+            <TableColumn fx:id="col_prenom" prefWidth="97.0" text="prenom" />
+            <TableColumn fx:id="col_tel" prefWidth="64.0" text="tel" />
+            <TableColumn fx:id="col_email" prefWidth="120.0" text="email" />
+            <TableColumn fx:id="col_mdp" prefWidth="120.0" text="mot de passe" />
+            <TableColumn fx:id="col_mdpc" prefWidth="120.0" text="confirmation" />
+            <TableColumn fx:id="col_type" prefWidth="120.0" text="typeutilisateur" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filterField" layoutX="350.0" layoutY="30.0" promptText="Search" />
+   </children>
+</AnchorPane>

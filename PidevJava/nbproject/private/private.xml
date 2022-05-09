@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/downloads/PidevJava/src/services/RecupMDPController.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/GestionutilisateurController.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/gestionutilisateur.fxml</file>
+            <file>file:/D:/downloads/PidevJava/src/views/RecupMDP.fxml</file>
+            <file>file:/D:/downloads/PidevJava/src/pidevjava/PidevJava.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/style.css</file>
+            <file>file:/D:/downloads/PidevJava/src/pidevjava/PersonnesFXMain.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/AuthentificationMain.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/mail1.java</file>
+            <file>file:/D:/downloads/PidevJava/src/utils/Mailing.java</file>
+            <file>file:/D:/downloads/PidevJava/src/entities/Users.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/AuthentificationUtilisateurController.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/HomeController.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/GimmeEmailFXML.fxml</file>
+            <file>file:/D:/downloads/PidevJava/src/views/Inscription.fxml</file>
+            <file>file:/D:/downloads/PidevJava/src/views/AuthentificationUtilisateur.fxml</file>
+            <file>file:/D:/downloads/PidevJava/src/services/UserService.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/mail.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/AuthentificationMain.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/CodeValideController.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/style1.css</file>
+            <file>file:/D:/downloads/PidevJava/src/services/GimmeEmailFXMLController.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/Inscription.java</file>
+            <file>file:/D:/downloads/PidevJava/src/services/IPersonne.java</file>
+            <file>file:/D:/downloads/PidevJava/src/views/CodeValide.fxml</file>
+            <file>file:/D:/downloads/PidevJava/src/utils/MailingCode.java</file>
+            <file>file:/D:/downloads/PidevJava/src/utils/MyDB.java</file>
+        </group>
+    </open-files>
+</project-private>
